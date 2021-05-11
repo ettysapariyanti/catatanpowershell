@@ -29,3 +29,17 @@ Untuk bisa menjalankan perintah satu per satu, jadi setiap perintah baru dijalan
 -Wait
 
 ```
+
+Untuk membuat comment di source code powershell bisa menggunakan tanda:
+
+```powershell
+
+<# isi komentar #>
+
+```
+
+
+
+
+## Rename Komponen-komponen Firewall
+
