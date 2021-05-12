@@ -76,7 +76,7 @@ Penambahan -batch berfungsi agar plink tidak menampilkan prompt lagi, dan langsu
 Multiple command yg dieksekusi setelah berhasil login ke masin Linux, bisa dijalankan melalui kode ini:
 
 ```text
-.\plink.exe -ssh -t steven@192.168.1.4 -pw kucing -batch 'cd PythonProject;ls'
+.\plink.exe -ssh -t steven@192.168.1.4 -pw 12345 -batch 'cd PythonProject;ls'
 ```
 
 
