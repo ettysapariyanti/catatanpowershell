@@ -59,6 +59,13 @@ plink + run powershell command
 
 Untuk menjalankan koneksi SSH ke mesin Linux (untuk percobaan di pergunakan Ubuntu dan Fedora), bisa menggunakan **plink.exe** . Plink akan dijalankan melalui script Powershell. Tujuannya agar bisa melakukan otomatisasi dan pekerjaan yg berulang tanpa banyak melibatkan campur tangan manusia. Dan juga bisa meremote banyak komputer di jaringan LAN maupun internet.
 
+Contoh perintah-perintah sederhana yang berhasil dijalankan di Terminal Powershell:
+
+```text
+.\plink.exe -ssh -t steven@192.168.1.4 -pw 12345 ls
+```
+
+
 
 
 ## Rename Komponen-komponen Firewall
