@@ -61,12 +61,22 @@ Untuk menjalankan koneksi SSH ke mesin Linux (untuk percobaan di pergunakan Ubun
 
 Contoh perintah-perintah sederhana yang berhasil dijalankan di Terminal Powershell:
 
+Perintah yang ini ketika dijalankan masih mengharuskan pengguna menekan tombol Enter terlebih dahulu:
+
 ```text
 .\plink.exe -ssh -t steven@192.168.1.4 -pw 12345 ls
 ```
 
+Penambahan -batch berfungsi agar plink tidak menampilkan prompt lagi, dan langsung mengeksekusi perintah yang diberikan:
+
 ```text
 .\plink.exe -ssh -t steven@192.168.1.4 -pw 12345 -batch ls
+```
+
+Multiple command yg dieksekusi setelah berhasil login ke masin Linux, bisa dijalankan melalui kode ini:
+
+```text
+.\plink.exe -ssh -t steven@192.168.1.4 -pw kucing -batch 'cd PythonProject;ls'
 ```
 
 
