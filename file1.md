@@ -44,7 +44,9 @@ Cara menjalankan Plink bersama dengan powershell:
 
 https://cmatskas.com/run-ssh-with-powershell/
 
+kalau plink sudah bisa berkerjasama dengan powershell, maka gampang untuk menjalankan perintah di remote server, maka cukup melalui Terminalnya powershell. tanpa perlu membuka aplikasi putty. akan mencoba juga script powershell, untuk copy paste file ke remote server menggunakan protokol SSH.
 
+selanjutnya untuk telekomunikasi secara jarak jauh melalui internet, akan di fasilitasi dengan ssh melalui jalur telekomunikasi yang disediakan oleh aplikasi [Ngrok](https://ngrok.com/)
 
 ## Rename Komponen-komponen Firewall
 
