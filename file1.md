@@ -84,6 +84,11 @@ Cara mengeksekusi Bash Script di remote komputer menggunakan Plink:
 https://superuser.com/questions/413783/how-to-run-bash-script-on-a-linux-host-from-windows-using-plink
 
 
+kata kunci pencarian:
+
+plink + create bash file remotely
+
+
 
 
 ## Rename Komponen-komponen Firewall
