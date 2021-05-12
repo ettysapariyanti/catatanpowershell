@@ -38,6 +38,11 @@ Untuk membuat comment di source code powershell bisa menggunakan tanda:
 
 ```
 
+# Powershell dan SSH
+
+Cara menjalankan Plink bersama dengan powershell:
+
+https://cmatskas.com/run-ssh-with-powershell/
 
 
 
