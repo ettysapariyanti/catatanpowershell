@@ -89,7 +89,7 @@ kata kunci pencarian:
 plink + create bash file remotely
 
 
-Sedang mempelajari tentang **Invoke-Expression** di Powershell, Invoke-Expression ini akan dipadukan dengan SSH untuk menjalankan perintah/script di remote komputer.
+Sedang mempelajari tentang [Invoke-Expression](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/invoke-expression?view=powershell-7.1) di Powershell, Invoke-Expression ini akan dipadukan dengan SSH untuk menjalankan perintah/script di remote komputer.
 
 
 
