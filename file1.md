@@ -79,7 +79,9 @@ Multiple command yg dieksekusi setelah berhasil login ke masin Linux, bisa dijal
 .\plink.exe -ssh -t steven@192.168.1.4 -pw 12345 -batch 'cd PythonProject;ls'
 ```
 
+Cara mengeksekusi Bash Script di remote komputer menggunakan Plink:
 
+https://superuser.com/questions/413783/how-to-run-bash-script-on-a-linux-host-from-windows-using-plink
 
 
 
