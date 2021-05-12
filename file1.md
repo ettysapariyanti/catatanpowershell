@@ -91,6 +91,14 @@ plink + create bash file remotely
 
 Sedang mempelajari tentang [Invoke-Expression](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/invoke-expression?view=powershell-7.1) di Powershell, Invoke-Expression ini akan dipadukan dengan SSH untuk menjalankan perintah/script di remote komputer.
 
+Contoh source code Invoke-Expression yang sudah di coba:
+
+```powershell
+$TampilkanProsesBerjalan = "Get-Process"
+
+Invoke-Expression $TampilkanProsesBerjalan
+```
+
 
 
 
