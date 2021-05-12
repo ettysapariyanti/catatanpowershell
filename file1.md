@@ -48,5 +48,15 @@ kalau plink sudah bisa berkerjasama dengan powershell, maka gampang untuk menjal
 
 selanjutnya untuk telekomunikasi secara jarak jauh melalui internet, akan di fasilitasi dengan ssh melalui jalur telekomunikasi yang disediakan oleh aplikasi [Ngrok](https://ngrok.com/)
 
+**Tutorial bagus lainnya terkait kerjasama antara powershell dengan plink**:
+
+https://www.ttestscripting.com/2017/05/04/running-ssh-commands-in-powershell-putty-method/
+
+**Kata kunci pencarian (Google/Duckduckgo):
+
+plink + run powershell command
+
+
+
 ## Rename Komponen-komponen Firewall
 
