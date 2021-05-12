@@ -52,7 +52,7 @@ selanjutnya untuk telekomunikasi secara jarak jauh melalui internet, akan di fas
 
 https://www.ttestscripting.com/2017/05/04/running-ssh-commands-in-powershell-putty-method/
 
-**Kata kunci pencarian (Google/Duckduckgo):
+**Kata kunci pencarian (Google/Duckduckgo):**
 
 plink + run powershell command
 
