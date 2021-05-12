@@ -65,6 +65,12 @@ Contoh perintah-perintah sederhana yang berhasil dijalankan di Terminal Powershe
 .\plink.exe -ssh -t steven@192.168.1.4 -pw 12345 ls
 ```
 
+```text
+.\plink.exe -ssh -t steven@192.168.1.4 -pw 12345 -batch ls
+```
+
+
+
 
 
 
