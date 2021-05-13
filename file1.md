@@ -100,6 +100,32 @@ Invoke-Expression $TampilkanProsesBerjalan
 ```
 
 
+Source code yg memanfaatkan Invoke-Expression dan SSH yang berhasil dijalankan:
+
+```powershell
+<# mengeksekusi script bash yg ada di remote komputer, kali ini menggunakan bantuan Invoke-Expression #>
+<# script dalam bahasa bash akan meminta input, input di minta di Terminal Windows #>
+
+$perintah = 'bash /home/steven/proyekBash/Latihan1/file2.sh'
+
+$alamatServer = '192.168.1.4'
+
+$namaPengguna = 'steven'
+
+$kataKunci = '12345'
+
+$plinkPath = 'C:\STEVEN\ProyekPowershell\Latihan1\plink.exe'
+
+
+
+<# Perintah SSH yg di bundel ke dalam variabel #>
+
+$perintahRemote = "& $plinkPath -pw $kataKunci -t $namaPengguna@$alamatServer -batch $perintah"
+
+Invoke-Expression -Command $perintahRemote
+```
+
+
 
 
 ## Rename Komponen-komponen Firewall
