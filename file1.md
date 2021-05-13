@@ -125,6 +125,16 @@ $perintahRemote = "& $plinkPath -pw $kataKunci -t $namaPengguna@$alamatServer -b
 Invoke-Expression -Command $perintahRemote
 ```
 
+file2.sh nya berisi source code ini:
+
+```bash
+#!/bin/sh
+printf "\n"
+echo "Tuliskan nama anda : "
+read Nama
+echo "Selamat Datang Di Fedora 34, $Nama"
+```
+
 
 
 
