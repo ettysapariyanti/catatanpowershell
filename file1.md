@@ -136,6 +136,28 @@ echo "Selamat Datang Di Fedora 34, $Nama"
 ```
 
 
+## Cara Membuat Menu di Powershell
+
+Contoh sederhana:
+
+```powershell
+
+<# Membuat menu di Powershell #>
+
+$makananEnak = Read-Host -Prompt 'Apa Makanan Favorit di Jakarta ?'
+
+if ($makananEnak -eq 'Nasi Padang') {
+
+	Write-Output "Nasi Padang adalah makanan favorit yg rasanya pedas."
+
+} else {
+
+	Write-Output "$makananEnak adalah makanan yang jarang di temui." 
+
+}
+
+
+```
 
 
 ## Rename Komponen-komponen Firewall
