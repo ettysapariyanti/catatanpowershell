@@ -159,14 +159,32 @@ if ($makananEnak -eq 'Nasi Padang') {
 
 ```
 
+Melanjutkan source code untuk membuat menu di Powershell:
 
-## Rename Komponen-komponen Firewall
+```powershell
+
+$merah = New-Object System.Management.Automation.Host.ChoiceDescription '&Merah', 'Warna Pilihan : Merah'
+$kuning = New-Object System.Management.Automation.Host.ChoiceDescription '&Kuning', 'Warna Pilihan : Kuning'
+$hijau = New-Object System.Management.Automation.Host.ChoiceDescription '&Hijau', 'Warna Pilihan : Hijau'
+
+$pilihan = [System.Management.Automation.Host.ChoiceDescription[]]($merah, $kuning, $hijau)
+
+$judul = 'Warna Kesukaan'
+$isiPesan = 'Apa warna kesukaan mu ?'
+$hasilPilihan = $host.ui.PromptForChoice($judul, $isiPesan, $pilihan, 0)
+
+switch ($hasilPilihan){
+
+	0 { 'Warna kesukaan anda adalah Merah' }
+
+	1 { 'Warna kesukaan anda adalah Kuning' }
+
+	2 { 'Warna kesukaan anda adalah Hijau' }
 
 
+	}
 
-_Salurkan donasi anda sebesar Rp 10.000 melalui : https://saweria.co/simpananfilepenting
-Terimakasih_
 
-_Please, send your donation as much as 1 USD through this link: https://paypal.me/ibnuchalid00
-Thank you_
+```
+
 
