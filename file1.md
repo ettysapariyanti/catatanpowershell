@@ -187,4 +187,23 @@ switch ($hasilPilihan){
 
 ```
 
+## Belajar Membuat Fungsi (Function) di Powershell
+
+Belajar dari tulisan di sini:
+
+**[adamtheautomator.com](https://adamtheautomator.com/powershell-functions/)**
+
+
+Source code pertama yg berhasil di buat:
+
+```powershell
+
+function Memasang-Aplikasi {Write-Host 'Saya sudah memasang beberapa aplikasi. Super Sekali!'}
+Memasang-Aplikasi
+
+
+```
+
+
+
 
