@@ -205,5 +205,15 @@ Memasang-Aplikasi
 ```
 
 
+source untuk percobaan awal membuat menu:
+
+```powershell
+
+$warnaKesukaan = Read-Host -Prompt 'Apa Warna Favorit Anda ?'
+Write-Host 'Warna kesukaan anda adalah : ' $warnaKesukaan
+
+```
+
+
 
 
