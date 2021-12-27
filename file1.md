@@ -228,4 +228,29 @@ function MendapatkanVersi {
 ```
 
 
+contoh source code lain untuk membuat menu:
+
+```powershell
+
+$warnaKesukaan = Read-Host -Prompt 'Apa Warna Mobil Anda ?'
+Write-Host 'Warna mobil anda adalah : ' $warnaKesukaan
+
+if ($warnaKesukaan -eq 'merah'){
+
+        Write-Host 'Berarti merek mobil anda adalah Ferrari'
+
+        } else {
+
+        Write-Host 'jikalau warnanya ' $warnaKesukaan , ' maka berarti mobilnya bukan Ferrari.'
+
+        }
+
+```
+
+
+
+
+
+
+
 
