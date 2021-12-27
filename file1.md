@@ -214,7 +214,7 @@ Write-Host 'Warna kesukaan anda adalah : ' $warnaKesukaan
 
 ```
 
-contoh source code lain untuk Fungsi di Powershell :
+contoh source code lain untuk **Fungsi** di Powershell :
 
 ```powershell
 
