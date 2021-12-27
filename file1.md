@@ -214,6 +214,18 @@ Write-Host 'Warna kesukaan anda adalah : ' $warnaKesukaan
 
 ```
 
+contoh source code lain untuk Fungsi di Powershell :
+
+```powershell
+
+function MendapatkanVersi {
+        $PSVersionTable.PSVersion
+
+        }
+
+        MendapatkanVersi
+
+```
 
 
 
